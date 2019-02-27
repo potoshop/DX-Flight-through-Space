@@ -13,6 +13,11 @@ public:
 	inline UINT GetWinHeight() const { return m_Height; }
 
 	void ParseCommandeLineArgs(_In_reads_(argc) WCHAR* argv [], int argc);
+public:
+
+	virtual void OnInit() = 0;
+	virtual void Render() = 0;
+	virtual void UpdateFrame() = 0;
 
 private:
 	std::wstring m_WinTitile;

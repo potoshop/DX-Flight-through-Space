@@ -50,6 +50,9 @@ int Win32_64Application::Run(DXSample* pSample, HINSTANCE hInstance)
 	SetForegroundWindow(m_hwnd);
 	SetFocus(m_hwnd);
 
+	//Инициализация DX11
+	pSample->OnInit();
+
 	MSG msg = { };
 
 	//Обработчик событий
@@ -60,6 +63,9 @@ int Win32_64Application::Run(DXSample* pSample, HINSTANCE hInstance)
 			TranslateMessage(&msg);
 			DispatchMessage(&msg);
 		}
+
+		pSample->UpdateFrame();
+		pSample->Render();
 	}
 
 	return static_cast<char> (msg.wParam);
