@@ -126,7 +126,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DXMainDevice.cpp" />
+    <ClCompile Include="DXResurce.cpp" />
+    <ClCompile Include="DXResurceLoadManager.cpp" />
     <ClCompile Include="DXSample.cpp" />
+    <ClCompile Include="DXShader.cpp" />
     <ClCompile Include="DXWindow.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Win32_64Application.cpp" />
@@ -134,11 +137,17 @@
   <ItemGroup>
     <ClInclude Include="DXHelper.h" />
     <ClInclude Include="DXMainDevice.h" />
+    <ClInclude Include="DXResurce.h" />
+    <ClInclude Include="DXResurceLoadManager.h" />
     <ClInclude Include="DXSample.h" />
     <ClInclude Include="DXSampleHelper.h" />
+    <ClInclude Include="DXShader.h" />
     <ClInclude Include="DXWindow.h" />
     <ClInclude Include="Headers.h" />
     <ClInclude Include="Win32_64Application.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

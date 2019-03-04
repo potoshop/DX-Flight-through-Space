@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Win32_64Application">
-    <Position X="5.75" Y="0.75" Width="1.5" />
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Win32_64Application" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAIIAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAUAAAAAI=</HashCode>
       <FileName>Win32_64Application.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="HrException">
-    <Position X="2.25" Y="4.75" Width="1.5" />
+  <Class Name="HrException" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAQEAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DXHelper.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DXMainDevice">
-    <Position X="4" Y="0.75" Width="1.5" />
+  <Class Name="DXMainDevice" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ABAABAAAAAAAAABAAAEAAACAEAAgAAwAAAAAAgAAAAI=</HashCode>
       <FileName>DXMainDevice.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DXSample">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Position X="1" Y="0.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAACRQAAAAAABAAAAIAAABAAAAAQAABggQAAACAA=</HashCode>
       <FileName>DXSample.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DXWindow">
-    <Position X="0.5" Y="4.75" Width="1.5" />
+    <Position X="1.25" Y="5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAACQAIBAAAAAAAAA=</HashCode>
       <FileName>DXWindow.h</FileName>
